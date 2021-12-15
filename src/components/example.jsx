@@ -9,7 +9,7 @@ const Example = props =>{
 
     return(
         <div>
-            <p>You Clicked {count} Times</p>
+            <p>You Clicked {count} Times but never do that</p>
             <button onClick={()=>setCount(count + 1 )}>
                 Click me
             </button>
